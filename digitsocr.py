@@ -2,8 +2,6 @@ import numpy as np
 import cv2
 from numpy import loadtxt
 from keras.models import load_model
-import warnings
-warnings.filterwarnings('ignore')
 
 
 model = load_model('digitsocr.h5')
